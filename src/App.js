@@ -28,4 +28,28 @@ class App extends Component {
     )
   }
 }
+
+// functional component
+// import React,{useState} from 'react'
+
+// function App() {
+//   const[data,setData]=useState(0);
+//   function increment(){
+//     setData(data+1);
+//   }
+//   const reset=()=>{
+//     setData(0);
+//   }
+//   function decrement(){
+//     setData(data-1);
+//   }
+//   return (
+//     <div className='appa'>
+//       <h1>{data}</h1>
+//       <button onClick={()=>increment()}>Increment</button>
+//       <button onClick={()=>reset()}>reset</button>
+//       <button onClick={()=>decrement()}>Decrement</button>
+//     </div>
+//   )
+// }
 export default App;
